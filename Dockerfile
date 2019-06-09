@@ -5,4 +5,4 @@ ENV MYSQL_DATABASE=elearn_et_tests
 ENV MYSQL_USER=tests
 ENV MYSQL_PASSWORD=tests
 
-CMD ['--sql_mode=""']
+CMD ['mysqld', '--sql_mode=""']
